@@ -11,10 +11,10 @@ Instead of asking a user to solve a annoying CAPTCHA that doesnt really work a s
 # What does this solver do?
 
 
-Its given a challenge string containing the required Argon2 parameters (memory cost, time cost, salt, and difficulty), the solver repeatedly generates candidate unblock codes and hashes them using Argon2.
+Its given a challenge string containing the required Argon2 parameters (memory cost, time cost, salt, and difficulty) the solver repeatedly generates candidate unblock codes and hashes them using Argon2.
 
 A solution is found when the resulting hash satisfies the difficulty requirement defined by the challenge.
 
 The generated unblock code can then be submitted back to the website, where the server can verify it instantly.
 
- PwnF @Insane
+
