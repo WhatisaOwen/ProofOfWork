@@ -19,7 +19,6 @@ difficulty=$(echo "$difficulty" | xargs)
 
 pw_prefix="UNBLOCK-$(head /dev/urandom | tr -dc A-Z0-9 | head -c 8)-"
 difficulty_raw=$(echo "scale=10; e(l(256) * (4 - l($difficulty) / l(256))) / 1" | bc -l | xargs printf %.0f)	
-# not my formula but it works
 
 echo "Estimated iterations: $difficulty"
 echo "Time Cost: $time_cost"
