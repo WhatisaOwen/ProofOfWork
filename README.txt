@@ -1,5 +1,5 @@
 
-A very tiny Proof of Work concept 
+A very tiny but decent Proof of Work concept I still use
 uses the parameters(memory cost,salt,difficulty) 
 I found Argon2 to be very interesting and I wish I could understand it more
 
